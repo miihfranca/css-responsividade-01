@@ -1,0 +1,38 @@
+body {
+    background-color: rgba(198, 224, 224, 0.801);
+    width: 150vw;
+    height: 150vh;
+
+}
+
+.a {
+    background-color: rgb(255, 255, 255);
+    width: 55vw;
+   
+    font-family:  Varela Round;
+}
+
+h1 {
+    background-color: #21a8e767;
+    color: white;
+    width: 55vw;
+    height: 15vh;
+    text-align: center;
+    padding-top: 15px;
+    font-style:Nunito ;
+
+}
+
+p {
+    padding: 55px 15px;
+}
+
+@media (max-width: 96px) {
+    .a {
+        width: 80%;
+    }
+
+    h1 {
+        width: 50%;
+    }
+}
